@@ -28,7 +28,7 @@ Internet → Static IP → Router → Ubuntu Server → Docker → Stalwart Mail
 
 * [x] GitHub repository created
 * [x] Documentation structure created
-* [ ] Mail server deployed
+* [x] Mail server deployed
 * [ ] Static IP assigned
 * [ ] DNS configured
 * [ ] PTR configured
