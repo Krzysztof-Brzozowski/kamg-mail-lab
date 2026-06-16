@@ -4,7 +4,7 @@
 
 * [x] GitHub repository created
 * [x] Initial documentation created
-* [ ] Docker host prepared
+* [x] Docker host prepared
 * [ ] Storage location selected
 * [ ] Backup strategy documented
 
