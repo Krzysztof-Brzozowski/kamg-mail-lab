@@ -1,0 +1,15 @@
+.env
+*.key
+*.pem
+*.crt
+*.csr
+*.pfx
+*.p12
+*.log
+
+data/
+mail-data/
+backups/
+
+docker/stalwart-data/
+docker/mail-data/
