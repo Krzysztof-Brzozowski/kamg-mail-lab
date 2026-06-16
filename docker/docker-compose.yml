@@ -1,0 +1,14 @@
+services:
+  stalwart:
+    image: stalwartlabs/stalwart:latest
+    container_name: stalwart-mail
+    restart: unless-stopped
+    ports:
+      - "25:25"
+      - "587:587"
+      - "993:993"
+      - "8080:8080"
+    volumes:
+      - /mnt/storage/mail/stalwart:/opt/stalwart
+    environment:
+      - TZ=Europe/London
